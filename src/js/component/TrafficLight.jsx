@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export function Light(props) {
-	const [color, setColor] = useState("onClick");
+	const [color, setColor] = useState("");
 	return (
 		<div>
 			<div className="top"></div>
