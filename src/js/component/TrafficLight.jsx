@@ -9,17 +9,19 @@ export function Light(props) {
 				<div
 					onClick={() => setColor("red")}
 					className={
-						"red light" + (color === "red" ? " selected" : "")
+						"red light" + (props.color === "red" ? " selected" : "")
 					}></div>
 				<div
 					onClick={() => setColor("orange")}
 					className={
-						"orange light" + (color === "orange" ? " selected" : "")
+						"orange light" +
+						(props.color === "orange" ? " selected" : "")
 					}></div>
 				<div
 					onClick={() => setColor("green")}
 					className={
-						"green light" + (color === "green" ? " selected" : "")
+						"green light" +
+						(props.color === "green" ? " selected" : "")
 					}></div>
 			</div>
 		</div>

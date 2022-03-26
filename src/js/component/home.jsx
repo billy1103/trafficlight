@@ -2,10 +2,10 @@ import React from "react";
 import { Light } from "./TrafficLight.jsx";
 
 //create your first component
-const Home = () => {
+const Home = (props) => {
 	return (
 		<div>
-			<Light />
+			<Light color={props.color} handleRun={props.handleRun} />
 		</div>
 	);
 };
